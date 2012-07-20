@@ -1,0 +1,11 @@
+package eu.fluidforms.geom;
+
+
+/**
+ * A synonym for FVertex.
+ * @author Stephen
+ *
+ */
+public class FVector extends FVertex{
+
+}

@@ -1,0 +1,36 @@
+## This is a quick and dirty velocity template for the obj file format
+#set( $vertexCount = 1 )
+
+#foreach( $solid in $solids )
+#if(!$name)
+	#if($NamePrepend)
+		#set( $NamePrepend = $NamePrepend + "_")
+	#end
+g $NamePrepend#**#Object_$velocityCount
+#else
+g $name
+#end
+
+#set( $objectsVertexStartIndex = $vertexCount )
+
+#foreach( $triangle in $solid.triangles )
+	#set( $v1 = $triangle.getV1())
+	#set( $v2 = $triangle.getV2())
+	#set( $v3 = $triangle.getV3())
+v $v1.getX() $v1.getY() $v1.getZ()
+v $v2.getX() $v2.getY() $v2.getZ()
+v $v3.getX() $v3.getY() $v3.getZ()
+#set( $vertexCount = $vertexCount + 3 )
+#end
+
+#foreach( $triangle in $solid.triangles )
+	#set( $v1 = $triangle.getV1())
+	#set( $v2 = $triangle.getV2())
+	#set( $v3 = $triangle.getV3())
+	#set( $count = ($velocityCount - 1) * 3 + $objectsVertexStartIndex)
+	#set( $i1 = $count + 0)
+	#set( $i2 = $count + 1)
+	#set( $i3 = $count + 2)
+f $i1 $i2 $i3
+#end
+#end

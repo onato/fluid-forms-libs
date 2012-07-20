@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/36/trunk/src/eu/fluidforms/io
+END
+BinOrAsciiWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/36/trunk/src/eu/fluidforms/io/BinOrAsciiWriter.java
+END
+STLWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/36/trunk/src/eu/fluidforms/io/STLWriter.java
+END
+Exporter3D.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/36/trunk/src/eu/fluidforms/io/Exporter3D.java
+END
+BitUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/36/trunk/src/eu/fluidforms/io/BitUtils.java
+END
+RawExporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/36/trunk/src/eu/fluidforms/io/RawExporter.java
+END
+Exporter3DAbstract.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/36/trunk/src/eu/fluidforms/io/Exporter3DAbstract.java
+END
+STLReaderFast.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/36/trunk/src/eu/fluidforms/io/STLReaderFast.java
+END
+VelocityExporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/36/trunk/src/eu/fluidforms/io/VelocityExporter.java
+END
+IOUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/36/trunk/src/eu/fluidforms/io/IOUtils.java
+END
+Exporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/36/trunk/src/eu/fluidforms/io/Exporter.java
+END
+FFWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/36/trunk/src/eu/fluidforms/io/FFWriter.java
+END
+STLConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/36/trunk/src/eu/fluidforms/io/STLConverter.java
+END
+VRMLWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/36/trunk/src/eu/fluidforms/io/VRMLWriter.java
+END
+DXFWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/36/trunk/src/eu/fluidforms/io/DXFWriter.java
+END

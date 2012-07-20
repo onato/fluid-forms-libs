@@ -1,0 +1,16 @@
+// $ANTLR 2.7.6 (2005-12-22): STL.g -> STLParserTokenTypes.txt$
+STLParser    // output token vocab name
+LITERAL_solid="solid"=4
+IDENT=5
+LITERAL_endsolid="endsolid"=6
+LITERAL_end="end"=7
+LITERAL_vertex="vertex"=8
+FLOAT("an integer value")=9
+LITERAL_normal="normal"=10
+LITERAL_outer="outer"=11
+LITERAL_loop="loop"=12
+LITERAL_endloop="endloop"=13
+LITERAL_facet="facet"=14
+LITERAL_endfacet="endfacet"=15
+DIGIT=16
+WS=17

@@ -1,0 +1,32 @@
+## This is a velocity template for the stl file format
+#if(!$name)
+	#set( $name = "ALGODES")
+#end
+solid $name
+#foreach( $solid in $solids )
+#foreach( $triangle in $solid.triangles )
+#if($triangle.getNormal())
+	#set( $norm = $triangle.getNormal())
+#end
+	#set( $v1 = $triangle.getV1())
+	#set( $v2 = $triangle.getV2())
+	#set( $v3 = $triangle.getV3())
+#if($norm)
+		#set( $n1 = $norm.getX())
+		#set( $n2 = $norm.getY())
+		#set( $n3 = $norm.getZ())
+#else
+		#set( $n1 = "0")
+		#set( $n2 = "0")
+		#set( $n3 = "0")
+#end
+	facet normal $n1 $n2 $n3
+		outer loop
+			vertex $v1.getX() $v1.getY() $v1.getZ()
+			vertex $v2.getX() $v2.getY() $v2.getZ()
+			vertex $v3.getX() $v3.getY() $v3.getZ()
+		endloop
+	endfacet
+#end 
+#end
+endsolid $name 

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/36/trunk/src/eu/fluidforms/parser
+END
+STLParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/31/trunk/src/eu/fluidforms/parser/STLParser.java
+END
+STLLexer.smap
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/13/trunk/src/eu/fluidforms/parser/STLLexer.smap
+END
+ObjLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/13/trunk/src/eu/fluidforms/parser/ObjLoader.java
+END
+STLLexer.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/36/trunk/src/eu/fluidforms/parser/STLLexer.java
+END
+STLParserTokenTypes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/13/trunk/src/eu/fluidforms/parser/STLParserTokenTypes.txt
+END
+STLParserTokenTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/13/trunk/src/eu/fluidforms/parser/STLParserTokenTypes.java
+END
+OBJParser.smap
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/13/trunk/src/eu/fluidforms/parser/OBJParser.smap
+END
+OBJParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/31/trunk/src/eu/fluidforms/parser/OBJParser.java
+END
+OBJLexer.smap
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/13/trunk/src/eu/fluidforms/parser/OBJLexer.smap
+END
+OBJLexer.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/36/trunk/src/eu/fluidforms/parser/OBJLexer.java
+END
+OBJParserTokenTypes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/13/trunk/src/eu/fluidforms/parser/OBJParserTokenTypes.txt
+END
+OBJParserTokenTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/13/trunk/src/eu/fluidforms/parser/OBJParserTokenTypes.java
+END
+STLParser.smap
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/13/trunk/src/eu/fluidforms/parser/STLParser.smap
+END
